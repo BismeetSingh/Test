@@ -3,10 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
     <TextView android:layout_height="match_parent"
         android:text="Hey i am doing it"
         android:textSize="20sp"
         android:layout_width="match_parent" />
-
+    <Button
+        android:text="Click me to see something"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
