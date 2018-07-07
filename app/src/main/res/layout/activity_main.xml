@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-    <TextView android:layout_height="match_parent"
+    <TextView android:layout_height="wrap_content"
         android:text="Hey i am doing it"
         android:textSize="20sp"
         android:layout_width="match_parent" />
